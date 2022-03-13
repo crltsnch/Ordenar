@@ -6,3 +6,10 @@ class Tareas():
         self.t.append("Ponerse las zapatillas")
         self.t.append("Atarse los cordones")
         random.shuffle(self.t)
+        self.t_ordenadas = []
+    
+def esPredecesor(self, Ti, Tj):
+    elif Tj=="Atarse los cordones":
+        return false
+
+        
