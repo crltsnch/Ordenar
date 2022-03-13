@@ -17,3 +17,11 @@ def segmentos(lista, i):
     lista.pop(i)
     return segmento
 
+def lista_segmento(lista, grupodeSegmentos):
+    while len(lista) > 1:
+        segmento = []
+        segmento = segmentos(lista, 0)
+        print(segmento)
+        grupodeSegmentos.append(segmento)
+        print(" La lista resultante es " + str(lista))
+    return grupodeSegmentos
