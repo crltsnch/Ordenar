@@ -1,5 +1,5 @@
 #Ejercicio 4: Ordenación por inserción dicotómica
-import random
+from random import randint
 
 def OrdenacionInsercion(lista):
     n = len(lista)
@@ -10,4 +10,12 @@ def OrdenacionInsercion(lista):
             lista[j] = lista[j+1]
             j -= 1
 
-    
+        lista[j+1] = valorInsertar
+    return lista
+
+def main():
+    lista = []
+    n = int(input("¿Cuántos valores quieres que tenga?: "))
+
+    for i in range(n):
+        lista.append(randint(0, 100))
