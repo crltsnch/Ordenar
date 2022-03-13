@@ -8,3 +8,12 @@ def creacion_lista():
         lista.append(num)
     return lista
 
+def segmentos(lista, i):
+    segmento = []
+    segmento.append(lista[i])
+    while (len(lista) > 1) and (lista[i] >= lista[i + 1]):
+        segmento.append(lista[i + 1])
+        lista.pop(i + 1)
+    lista.pop(i)
+    return segmento
+
