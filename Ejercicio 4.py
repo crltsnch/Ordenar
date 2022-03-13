@@ -19,3 +19,10 @@ def main():
 
     for i in range(n):
         lista.append(randint(0, 100))
+    
+    print(lista)
+    lista = OrdenacionInsercion(lista)
+    print(lista)
+
+if (__name__ == "__main__"):
+    main()
