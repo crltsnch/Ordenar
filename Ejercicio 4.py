@@ -1,3 +1,8 @@
 #Ejercicio 4: Ordenación por inserción dicotómica
-#1. Escribir primero las especificaciones del algoritmo que no usa la ayuda de otra tabla para calcular su resultado.
+import random
 
+def OrdenacionInsercion(lista):
+    n=len(lista)
+    for i in range(1, n):
+        valorInsertar=lista[i]
+        j=i-1
