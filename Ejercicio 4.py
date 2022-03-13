@@ -7,9 +7,8 @@ def OrdenacionInsercion(lista):
         valorInsertar = lista[i]
         j = i-1
         while(j>= 0 and lista[j] > valorInsertar):
-            lista[j] = lista[j+1]
+            lista[j+1] = lista[j]
             j -= 1
-
         lista[j+1] = valorInsertar
     return lista
 
