@@ -2,7 +2,8 @@
 El link de mi repositorio es https://github.com/crltsnch/Ordenar.git
 
 El código del ejercicio 4 es:
-´´´
+
+```
 from random import randint
 
 def OrdenacionInsercion(lista):
@@ -29,4 +30,4 @@ def main():
 
 if (__name__ == "__main__"):
     main()
-    ´´´
+``` 
